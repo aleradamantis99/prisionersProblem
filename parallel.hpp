@@ -65,6 +65,11 @@ public:
 	
 	PPrisioners(): Prisioners<S>(), thrdPool(PPrisioners::numberOfThreads-1) {}
 	
+	auto nTests(pType_t n)
+	{
+		
+	}
+	
 	bool oneRound()
 	{
 		shuffle_boxes();
